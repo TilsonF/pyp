@@ -1,2 +1,4 @@
-# pyp.github.io
-Novela visual 
+# PyP
+Novela Visual
+
+Realizada con monogatari.io
