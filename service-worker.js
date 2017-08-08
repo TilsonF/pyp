@@ -1,5 +1,5 @@
 // The name of your game, no spaces or special characters.
-var name = 'Monogatari';
+var name = 'PyP';
 
 // The version of the cache, changing this will force everything to be cached
 // again.

@@ -59,7 +59,7 @@ var characters = {
 	"principe": {
 		"Name": "PRINCIPE",
 		"Color": "#5882FA",
-		"Directory": "Principe",
+		"Directory": "PRINCIPE",
 		"Images":{
 			"Normal": "p2.png",
 			"Mad": "p6.png",
@@ -74,7 +74,7 @@ var characters = {
 	"bruja": {
 		"Name": "BRUJA",
 		"Color": "#FF0000",
-		"Directory": "Bruja",
+		"Directory": "BRUJA",
 		"Images":{
 			"Normal": "b1.png",
 			"Mad": "b2.png",
@@ -87,7 +87,7 @@ var characters = {
 	"princesa": {
 		"Name": "PRINCESA",
 		"Color": "#F781F3",
-		"Directory": "Princesa",
+		"Directory": "PRINCESA",
 		"Images":{
 			"Normal": "pri_1.png",
 			"Mad": "pri_2.png",
