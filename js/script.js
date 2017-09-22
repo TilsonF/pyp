@@ -23,7 +23,7 @@ var particles = {
 
 // Define the music used in the game.
 var music = {
-
+	"musica_fondo": "musica_fondo.mp3"
 }
 
 // Define the voice files used in the game.
@@ -33,7 +33,11 @@ var voice = {
 
 // Define the sounds used in the game.
 var sound = {
-
+	"viento": "wind3.ogg",
+	"abrir_puerta": "dr_open.wav",
+	"abriendo_puerta": "door1.ogg",
+	"magia": "magia.mp3",
+	"beso": "beso.mp3"
 }
 
 // Define the videos used in the game.
@@ -117,7 +121,7 @@ var script = {
 				"Warning": "You must enter a name!"
 			}
 		},*/
-
+		"play music musica_fondo loop",
 		"scene campo_1",
 		"show bruja Normal center with fadeIn",
 		"bruja ¿Dónde te escondes, Príncipe?",
@@ -140,8 +144,13 @@ var script = {
 
 		"hide principe with fadeOut",
 		"show bruja Disapointed center with fadeIn",
+		
 		"bruja Príncipe eres, sapo serás y mi conjuro siempre recordarás.",
+		
+		"play sound magia ",
+		"scene campo_1 with jello",
 		"bruja Y si vuelves a ver a tu madre, dile que esto te lo he hecho por no invitarme a palacio.",
+
 
 		"hide bruja with fadeOut",
 		"show principe Doubt center with fadeIn",
@@ -171,8 +180,14 @@ var script = {
 		"show principe Mad center with fadeIn",
 		"principe Que suerte tan batracia la mía.",
 
+
 		"hide principe with fadeOut",
+		"play sound abrir_puerta ",
+		
+		
 		"(Entra la Princesa y al poco se detiene, pues ha visto al Sapo, y lo observa).",
+		"play sound abriendo_puerta ",
+		
 
 		"show principe Confiado center with fadeIn",
 		"principe Bésame.",
@@ -225,7 +240,9 @@ var script = {
 
 		"hide principe with fadeOut",
 		"show princesa Avergonzada center with fadeIn",
+		"play sound beso ",
 		"(La Princesa, con mucha lentitud se agacha y luego, con prisa, le da un beso al Sapo. Y de pronto, la Princesa queda convertida en Rana).",
+
 
 		"hide princesa with fadeOut",
 		"show principe Nee center with fadeIn",
